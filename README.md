@@ -15,3 +15,27 @@ Confidence scores
  Caching for faster repeated requests
  Simple and interactive Streamlit UI
  Modular and clean Python package structure
+ 
+pulse-module-extractor/
+│
+├── app.py                     # Streamlit UI
+├── api.py                     # REST API
+├── Dockerfile
+├── requirements.txt
+│
+├── extractor/
+│   ├── __init__.py
+│   ├── crawler.py
+│   ├── parser.py
+│   ├── extractor.py
+│   └── confidence.py
+│
+├── utils/
+│   ├── cache.py
+│   ├── logger.py
+│   └── validators.py
+│
+├── sample_outputs/
+│   └── wordpress.json
+│
+└── README.md
